@@ -1,4 +1,4 @@
-body{background-image: url(/Misc/Cerebro_Website/Images/island.jpg);
+body{background-image: url(/Images/island.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,32 +135,32 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-   background-image: url('/Misc/Cerebro_Website/Images/boat.jpg');
+   background-image: url('/Images/insta.jpg');
 }
 .card[for="c2"] {
-   background-image: url('/Misc/Cerebro_Website/Images/tiktok.gif');
+   background-image: url('/Images/tiktok.gif');
 }
 .card[for="c3"] {
-   background-image: url('/Misc/Cerebro_Website/Images/twitter.jpg');
+   background-image: url('/Images/tiktok.gif');
 }
 .card[for="c4"] {
-   background-image: url('/Misc/Cerebro_Website/Images/youtube.jpg');
+   background-image: url('/Images/youtube.jpg');
 }
 .card[for="c5"] {
-   background-image: url('/Misc/Cerebro_Website/Images/hevy.png');
+   background-image: url('/Images/hevy.png');
 }
 .card[for="c6"] {
-   background-image: url('/Misc/Cerebro_Website/Images/Steam.png');
+   background-image: url('/Images/Steam.png');
 }
 .card[for="c7"] {
-   background-image: url('/Misc/Cerebro_Website/Images/letterbox.jpg');
+   background-image: url('/Images/letterbox.jpg');
 }
 .card[for="c8"] {
-   background-image: url('/Misc/Cerebro_Website/Images/github.jpg');
+   background-image: url('/Images/github.jpg');
 }
 .card[for="c9"] {
-   background-image: url('/Misc/Cerebro_Website/Images/discord.png');
+   background-image: url('/Images/discord.png');
 }
 .card[for="c10"] {
-   background-image: url('/Misc/Cerebro_Website/Images/epic.png');
+   background-image: url('/Images/epic.png');
 }
