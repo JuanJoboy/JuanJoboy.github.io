@@ -141,7 +141,7 @@ input:checked + label .description {
    background-image: url('/Images/tiktok.gif');
 }
 .card[for="c3"] {
-   background-image: url('/Images/tiktok.gif');
+   background-image: url('/Images/twitter.jpg');
 }
 .card[for="c4"] {
    background-image: url('/Images/youtube.jpg');
