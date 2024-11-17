@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('Images/island.jpg');
+    background-image: url('Images/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -175,7 +175,7 @@ input:checked + label .description
 }
 .card[for="c6"]
 {
-    background-image: url('Images/Steam.png');
+    background-image: url('Images/steam.png');
 }
 .card[for="c7"]
 {
