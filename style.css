@@ -24,7 +24,9 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
 }
 
 .container
@@ -36,6 +38,9 @@ body
     text-align: center;
     text-shadow: 2px 2px 2px lightpink;
     font-size:40px;
+    padding: 20px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .card
@@ -83,11 +88,13 @@ a:active{color: lightblue}
 {
     .container
     {
-        display: flex;
-        flex-direction: column;
+        overflow-x: auto;
+        overflow-y: auto;
+        flex-wrap: nowrap;
         align-items: center;
-        gap: 20px;
-        padding: 20px;
+        justify-content: flex-start;
+        width: 100%;
+        scroll-snap-type: x mandatory;
     }
 
   .card:hover
@@ -102,9 +109,8 @@ a:active{color: lightblue}
 
   .card
     {
-        height: 100px;
-        width: 100%;
-        max-width: 400px;
+        scroll-snap-align: start;
+        flex-shrink: 0;
     }
 }
 
